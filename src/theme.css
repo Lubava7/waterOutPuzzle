@@ -1,0 +1,74 @@
+/* Единая тёмная палитра приложения */
+
+:root {
+  --page-bg: radial-gradient(circle at top, #0f172a, #020617);
+  --color-text: #e2e8f0;
+  --color-muted: #93c5fd;
+  --panel-bg: #101828;
+  --panel-border: #253045;
+  --panel-color: #dbeafe;
+  --item-card-bg: #172237;
+  --item-card-border: #314264;
+  --secondary-bg: #172237;
+  --secondary-color: #dbeafe;
+  --secondary-border: #314264;
+  --action-bg: #172237;
+  --action-color: #e2e8f0;
+  --action-border: #334155;
+  --modal-backdrop: rgb(2 6 23 / 75%);
+  --modal-bg: #111c31;
+  --modal-border: #334155;
+  --board-bg: #0b1220;
+  --board-border: #475569;
+  --board-border-width: 3px;
+  --cell-border: #334155;
+  --cell-border-width: 1px;
+  --board-shadow:
+    0 6px 20px rgb(0 0 0 / 45%),
+    inset 0 1px 0 rgb(255 255 255 / 8%),
+    inset 0 -2px 8px rgb(0 0 0 / 35%);
+  --cell-inset: inset 0 1px 0 rgb(255 255 255 / 6%);
+  --piece-unit-border-width: 4px;
+  --piece-unit-radius: 7px;
+  --piece-unit-shadow: 0 2px 4px rgb(0 0 0 / 35%), inset 0 1px 0 rgb(255 255 255 / 12%);
+  /* Контур фигуры: заметное свечение, соседние блоки одного цвета разделяются */
+  --piece-silhouette-glow:
+    drop-shadow(0 0 0 2px rgb(255 255 255 / 58%)) drop-shadow(0 0 0 5px rgb(255 255 255 / 28%))
+    drop-shadow(0 0 14px rgb(255 255 255 / 22%)) drop-shadow(0 4px 18px rgb(255 255 255 / 12%));
+  --game-viewport-bg: radial-gradient(circle at top, #0f172a, #020617);
+  --stat-bar-bg: linear-gradient(135deg, rgb(15 23 42 / 95%), rgb(30 41 59 / 90%));
+  --stat-bar-border: rgb(51 65 85 / 80%);
+  --stat-label: #94a3b8;
+  --stat-hint: #64748b;
+  --stat-coin-border: rgb(234 179 8 / 35%);
+  --stat-life-border: rgb(244 63 94 / 35%);
+  --home-panel-bg: linear-gradient(180deg, rgb(15 23 42 / 92%), rgb(17 24 39 / 88%));
+  --home-panel-border: rgb(51 65 85 / 50%);
+  --home-panel-shadow:
+    0 24px 48px rgb(0 0 0 / 45%),
+    0 0 0 1px rgb(51 65 85 / 50%),
+    inset 0 1px 0 rgb(255 255 255 / 8%);
+  --bottom-nav-bg: linear-gradient(180deg, rgb(15 23 42 / 98%), rgb(15 23 42 / 92%));
+  --bottom-nav-border: rgb(51 65 85 / 85%);
+  --nav-color: #94a3b8;
+  --nav-color-hover: #e2e8f0;
+  --nav-active-color: #93c5fd;
+  --nav-active-bg: rgb(59 130 246 / 18%);
+  --nav-active-border: rgb(96 165 250 / 45%);
+  --profile-btn-bg: linear-gradient(145deg, rgb(30 41 59 / 95%), rgb(15 23 42 / 98%));
+  --profile-btn-border: rgb(51 65 85 / 90%);
+  --bubble-gradient: radial-gradient(
+    circle at 30% 30%,
+    rgb(255 255 255 / 35%),
+    rgb(56 189 248 / 25%) 45%,
+    rgb(59 130 246 / 15%) 100%
+  );
+  --shop-item-bg: rgb(15 23 42 / 85%);
+  --shop-item-border: rgb(51 65 85 / 80%);
+  --completed-row-bg: rgb(15 23 42 / 55%);
+  --completed-row-border: rgb(51 65 85 / 60%);
+  --timer-box-bg: rgb(15 23 42 / 55%);
+  --timer-box-border: rgb(51 65 85 / 70%);
+  --level-card-number-color: #f8fafc;
+  --life-empty-bg: rgb(30 41 59 / 80%);
+}
